@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+    <ItemGroup>
+      <ProjectReference Include="..\DragDrop.Application\DragDrop.Application.csproj" />
+      <ProjectReference Include="..\DragDrop.Infrastructure\DragDrop.Infrastructure.csproj" />
+    </ItemGroup>
+
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
