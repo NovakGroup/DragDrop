@@ -1,0 +1,6 @@
+﻿services:
+  dragdrop:
+    image: dragdrop
+    build:
+      context: .
+      dockerfile: DragDrop/Dockerfile
